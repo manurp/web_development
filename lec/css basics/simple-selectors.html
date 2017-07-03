@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Simple Selectors</title>
+<style>
+/* all h2 elements */
+h2 {
+  font-size:26px;
+  color: red;
+  text-align: center;
+}
+/* all with class="highlight" */
+.highlight {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  background-color: green;
+  color: orange;
+  opacity: .6;
+}
+/* element with id="mainPoint" */
+#mainPoint {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: red;
+  opacity: .7;
+}
+/* all p AND h1 elements */
+p, h1 {
+  color: blue;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1>Simple Selectors (h1)</h1>
+<h2>Subheading 1 (h2)</h2>
+<p class="highlight">A selector is a chain of one or more simple selectors separated by combinators. Combinators are: white space, ">", and "+". White space may appear between a combinator and the simple selectors around it.</p>
+<p class="highlight">Paragraph with attribute class="highlight". Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+<h2>Subheading 2 (h2)</h2>
+<p>The elements of the document tree that match a selector are called subjects of the selector. A selector consisting of a single simple selector matches any element satisfying its requirements. Prepending a simple selector and combinator to a chain imposes additional matching constraints, so the subjects of a selector are always a subset of the elements matching the last simple selector.</p>
+<div>This is the main point of the entire article. So, attribute 
+<span id="mainPoint">id="mainPoint".</span> </div>
+
+</body>
+</html>

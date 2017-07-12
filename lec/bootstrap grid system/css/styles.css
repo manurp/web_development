@@ -1,0 +1,12 @@
+.container-fluid {
+	margin-top: 20px;
+}
+.row {
+	margin-bottom: 15px;
+}
+
+.row>div {
+	color:#fff;
+	border: 1.5px solid green;
+	background-color: #001234;
+}

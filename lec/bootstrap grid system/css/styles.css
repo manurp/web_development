@@ -5,7 +5,7 @@
 	margin-bottom: 15px;
 }
 
-.row>div {
+.row>div ,.row>p{
 	color:#fff;
 	border: 1.5px solid green;
 	background-color: #001234;
